@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashscreenLogin"
+    android:background="@android:color/white">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logoall"/>
+    <Button
+    android:layout_width="128dp"
+    android:layout_height="64dp"
+    android:id="@+id/login_btn"
+    android:background="@drawable/roundedbtn1"
+    android:text="LOG IN"
+    android:textSize="24sp"
+        android:onClick="login"
+    android:layout_marginLeft="45dp"
+    android:layout_marginTop="600dp"/>
+    <Button
+        android:layout_width="128dp"
+        android:layout_height="64dp"
+        android:id="@+id/signup_btn"
+        android:background="@drawable/roundedbtn2"
+        android:text="SIGN UP"
+        android:onClick="signup"
+        android:textSize="24sp"
+        android:layout_marginLeft="238dp"
+        android:layout_marginTop="600dp"/>
+</RelativeLayout>

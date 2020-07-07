@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/logo_crop_header"
+        android:scaleType="fitXY"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/roundedbg">
+        <EditText
+            android:id="@+id/et_firstnameignup"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/et_emailsignup"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/et_phoneignup"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:inputType="phone"/>
+            <EditText
+                android:id="@+id/et_passwordsignup"
+                android:layout_width="341dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:hint="Password"
+                android:ellipsize="start"
+                android:gravity="center_horizontal"
+                android:inputType="textPassword"
+                android:textSize="18dp" />
+        <EditText
+            android:id="@+id/et_confirmpassword"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:ellipsize="start"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:inputType="text"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="35dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Log In "
+                android:textColor="@android:color/black"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="#FF0404"
+                android:text="here"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="64dp"
+            android:background="@drawable/roundedbtn1"
+            android:text="SIGN UP"
+            android:textSize="24sp"
+            android:onClick="Sign_up"
+            android:layout_marginTop="15dp"/>
+    </LinearLayout>
+</LinearLayout>

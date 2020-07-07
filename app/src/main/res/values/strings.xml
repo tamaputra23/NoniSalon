@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NoniSalon</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Contact</string>
+    <string name="title_notifications">History</string>
+    <string name="title_profile">Profile</string>
+
+</resources>

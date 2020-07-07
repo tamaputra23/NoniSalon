@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardElevation="0dp"
+    android:background="@android:color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Volume Natural Lash"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_holdertreatmen"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Rp 50000"
+                android:textSize="18sp"
+                android:id="@+id/tv_holderprice"/>
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="1x"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="130dp"/>
+            <TextView
+                android:id="@+id/tv_remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#F00000"
+                android:text="Remove"
+                android:textSize="18sp"
+                android:layout_marginLeft="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

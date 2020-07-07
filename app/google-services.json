@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "348868183106",
+    "firebase_url": "https://salon-noni.firebaseio.com",
+    "project_id": "salon-noni",
+    "storage_bucket": "salon-noni.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348868183106:android:2bdbf420a64b1a7890d9db",
+        "android_client_info": {
+          "package_name": "com.example.nonisalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348868183106-vs584h7h1e421t82gr545i2eia9s93nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2qGJUDDmPDwT1vUZLqMz2_aF8FVYnEwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348868183106-vs584h7h1e421t82gr545i2eia9s93nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
